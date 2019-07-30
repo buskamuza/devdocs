@@ -69,8 +69,10 @@ Use this table to understand what changes Magento can make and which version num
 | | Changed a method signature (excluding last argument removal) | MAJOR|
 | | New method exception (excluding subtypes of existing exceptions) | MAJOR|
 | | New method exception (subtypes of an existing one) | PATCH|
-| **PHP Class** (marked with `@api`)| New Class| MINOR|
-| | New method added | MINOR|
+| **PHP Class** (marked with `@api`)| New class added (except View Models)| MINOR|
+| | New View Model added | PATCH|
+| | New method added (except View Models)| MINOR|
+| | New method added (View Models) | PATCH|
 | | Class removed| MAJOR|
 | | Method removed | MAJOR|
 | | New required method argument | MAJOR|
